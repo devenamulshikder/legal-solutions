@@ -8,22 +8,15 @@
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
       rel="stylesheet"
-      type="text/css"
-    />
+      type="text/css"/>
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- font awesome link -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 
     <!-- google font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700;800&family=Poppins&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700;800&family=Poppins&display=swap"rel="stylesheet"/>
     <style>
       .font-eb {
         font-family: "EB Garamond", serif;
@@ -34,6 +27,25 @@
     </style>
   </head>
   <body class="font-poppins">
-   
+   <header class="container my-24 mx-auto">
+    <nav >
+        <div class="flex justify-between items-center">
+            <div class="">
+                <img src="./images/logo2.png" alt="">
+            </div>
+            <div class=" hidden md:flex lg:flex gap-10 text-[#707070] ">
+                <a class="hover:text-[#B68C5A]" href="#">Home </a>
+                <a class="hover:text-[#B68C5A]" href="#">Services <i class="fa-solid fa-angle-right"></i></a>
+                <a class="hover:text-[#B68C5A]" href="#">Cases <i class="fa-solid fa-angle-right"></i></a>
+                <a class="hover:text-[#B68C5A]" href="#">Blog <i class="fa-solid fa-angle-right"></i></a>
+                <a class="hover:text-[#B68C5A]" href="#">Contact Us <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            <div>
+                <button class=" hidden lg:flex">Free Consultation</button>
+                <i class=" lg:hidden md:hidden text-3xl fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+   </header>
   </body>
 </html>
